@@ -1,16 +1,18 @@
+# Services
+
 This page lists all of the required documents for services. Provide each of these documents before publishing your package so the purpose and use of each service is easy to understand. All of the documentation for services appears in the <a href="/services/">API Docs</a> section of the Dev Portal. It is a good idea to familiarize yourself with the Service documentation before creating it. For information on how to build and publish documentation, see the <a href="/tools/documentationsdk/">Documentation SDK</a>. When writing any documentation for YaaS, including API Documentation, follow the <a href="#AbouttheStyleandStandards">Styles and Standards</a>.
 
-#### Multiple versions of documentation
+## Multiple versions of documentation
 Because it is required to keep the previous version of a service available for three months after a new version releases, you must also keep the documentation for that version for that same period of time. Use the code in the registry sample file <strong>service-sample-simpleWithTwoVersions.json</strong>. The code creates a <strong>latest</strong> link in the URL to the latest version, and a drop-down menu next to the service name in the API documentation.
 
 For an example of a service with multiple versions, see the <a href="/services/email/latest/">Email service</a>.
 
-#### RAML file
+## RAML file
 
-<%- @partial('dg_dev_RAMLfile') %>
+See the [RAML file](dg_dev_RAMLfile.html.md) topic.
 
 
-### Expose the Service URL
+## Expose the Service URL
 Expose the Service URL because it is the key component of your service. The <strong>baseUri</strong> automatically generates based on the values provided in the registry JSON file for the following attributes:
 <ul><strong>
   <li>builder_identifier</li>
@@ -38,7 +40,7 @@ The Dev Portal uses the <strong>baseURI</strong> in the following ways:
 
 Learn more about partials by reading the <a href="/tools/documentationsdk/#ReuseContent">Reuse Content</a> section.
 
-### Overview document
+## Overview document
 
 The Overview document is concise and briefly describes the purpose and intended use of the service. Use the proper metadata as described in the <a href="/tools/documentationsdk/#Metadata"> Metadata</a> section of the Documentation SDK. Make sure to include the following:
 
@@ -50,7 +52,7 @@ The Overview document is concise and briefly describes the purpose and intended 
     <li>Optionally, list any prerequisites with a short description and relevant links to tutorials or documentation.</li>
   </ul>
 
-### API Console and API Reference documents
+## API Console and API Reference documents
 
 When you follow the instructions to register your service in the <a href="/tools/documentationsdk/">Documentation SDK</a>, the following occurs:
   <ul>
@@ -69,7 +71,7 @@ If the API Console or API Reference is <i>not</i> available after following the 
     <li>When including hybris traits in your RAML file, use the full URL including the HTTP or HTTPS protocol.</li>
   </ul>
 
-### Events document
+## Events document
 
 The Events document is required for services that use the PubSub service to broadcast events that other services can consume.
 
@@ -199,7 +201,7 @@ If your payload is really long, use the following template.
 </div>
 </div>
 
-### Details document
+## Details document
 
 The Details documentation contains more in-depth details about the service. Use the proper metadata as described in the <a href="/tools/documentationsdk/#Metadata"> Metadata</a> section of the Documentation SDK. The details are listed in a logical order, starting with the architecture, scopes, and limitations of the service.
 
@@ -217,7 +219,7 @@ Give more details about the main features listed in the Overview, and any other 
     <li>List any considerations, tricks, or workarounds that help users make the most of using the service.</li>
   </ul>
 
-### Tutorials
+## Tutorials
 Tutorials in your documentation explain and demonstrate in step-by-step fashion how to use the service. Because the website navigation indicates that these documents are tutorials, the titles should be succinct. Do NOT include "How To" in the title.
 
 <p>The tutorials are targeted at developers with different amounts of experience with YaaS. For that reason, structure the tutorials so that a beginner can follow the most basic steps, and more experienced developers can learn more fine-grained details, such as troubleshooting or more use cases. Be sure to include the following:</p>
@@ -232,12 +234,12 @@ Tutorials in your documentation explain and demonstrate in step-by-step fashion 
   <li>Optional use cases – Show more than one use case to highlight different features.</li>
 </ul>
 
-### Security document
+## Security document
 The Security document is required only for services with data protection requirements that are not supported locally. This document contains all of the details needed to ensure data privacy, which varies from service to service.
 
 Refer to the documentation for the <a href="https://devportal.yaas.io/services/us/document/latest/">Document service</a> and the <a href="https://devportal.yaas.io/services/us/documentbackup/latest/">Document Backup service</a> for examples.
 
-### Glossary document
+## Glossary document
 Use the Glossary to define terms that are specific to each service. The Glossary generates at the bottom of each API document, after the tutorials. A glossary term should be succinct, and no more than a sentence long so that it displays nicely as a tooltip.
 
 To add a term to the glossary:
