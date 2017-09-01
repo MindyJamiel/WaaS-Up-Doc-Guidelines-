@@ -1,3 +1,5 @@
+# Release notes requirements
+
 Information in release notes must provide readers with everything they need to know to understand the change in the software. A lot of business decisions are made based on the information in release notes. Therefore, always write from the user’s perspective, not the developer’s perspective. The content of release notes answers the following questions:
 
 * What changed because of this feature or resolved issue?
@@ -7,34 +9,34 @@ Information in release notes must provide readers with everything they need to k
 * Does an error message appear?
 * Was the enhancement based on customer feedback?
 
-### Prerequisites and requirements
+## Prerequisites and requirements
 First, make sure you understand the document metadata, the folder structure, and where to place release notes as described in the <a href="/tools/documentationsdk/index.html">Documentation SDK</a>.
 
 Because the release notes contain critical information and act as an important communication tool, follow these guidelines so that the documentation is informative and consistent. When authoring release notes, follow the <a href="#AbouttheStyleandStandards">Styles and Standards</a> for many agreed-upon standards, including word choices, use of acronyms, and product names.
 
-#### Headlines
+### Headlines
 A headline is short, but interesting, and summarizes your release notes. Write headlines in sentence case.
 
-#### Write about new features
+### Write about new features
 When writing about new features, write an enticing paragraph instead of a short, bulleted list. This is an opportunity to market the new feature to customers from a business perspective.
 
-#### Write about resolved issues
+### Write about resolved issues
 When writing about resolved issues, don't call them bugs. Use the term "resolved issues" because it has a more positive tone. A bulleted list of resolved issues is okay, but ensure that the descriptions make sense.
 
-#### Bulleted lists
+### Bulleted lists
 For ease of reading, use the same sentence structure throughout a bulleted list. For example, the following items match in sentence structure:
 * Feature xyz – This one is really cool.
 * Feature abc – This one is really, really, cool.</br>
 **Don't add an entry that doesn't match, such as:**
 * Feature JKL: it's not so cool
 
-##### Examples
+#### Examples
 For examples of well-written release notes, see the <a href="/rn/services/document/latest/release_notes.html">Document</a> service's release notes.
 
-#### Filename
+### Filename
 Name the files for release notes for services and tools in the format <strong>YYYY-MM-DD-ReleaseNotesServiceName.html.md</strong>. For example, <strong>2016-02-09-ReleaseNotesEmail.html.md</strong>.
 
-#### Version changes
+### Version changes
 For a new version of an existing service, such as a v2 or v3 release, use the template in this section for your release note, and make sure you include this information:
 
 * The new version’s benefits and features, including one or more examples of how to use it
@@ -42,7 +44,7 @@ For a new version of an existing service, such as a v2 or v3 release, use the te
 * How to migrate to the new service version
 * Where to find more information on the new service version, typically a link to the the new version documentation in the Dev Portal
 
-### Release notes template
+## Release notes template
 To write and publish release notes, copy the template shown in this section to the <strong>docu/release_notes</strong> directory, and follow the instructions inside the template. The images shown represent a release note for the Email service.</p>
 
 <p>The first image represents the title box that displays on the <strong>Release Notes</strong> page and illustrates how the Dev Portal uses the <strong>date</strong>, <strong>headline</strong>, <strong>service</strong>, and <strong>official_version</strong> metadata:</p>
