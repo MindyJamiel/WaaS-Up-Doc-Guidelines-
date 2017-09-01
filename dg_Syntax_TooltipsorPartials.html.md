@@ -1,6 +1,8 @@
+# Tooltips or partials
+
 You can use partials for a few different purposes, as described in detail in the **Reuse Content** section.
 
-#### Global partials
+## Global partials
 There are currently three global partials in use:
 * `errors_global`, described in <a href="#Services-tutorials-document">Tutorials</a> to refer to the API Reference for error codes.
 * `template_events`, described in <a href="#Services-events-document">Events</a> to refer to the PubSub documentation for more information.
