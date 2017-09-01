@@ -1,3 +1,5 @@
+# RAML file
+
 YaaS services use the RESTful API Modeling Language (RAML) to describe their own APIs in a natural and intuitive way. Follow the <a href="/tools/apiguidelines">API Guidelines</a>. and create consistent and straightforward RAML API definitions.<br/>
 
 The Dev Portal uses the RAML file as the source for the automatic generation of the <strong>API Reference</strong> section in the API Docs. For a coherent user experience, include up-to-date examples and clear descriptions. Make the explanations concise and move the more extensive content to the **Details** or **Tutorial** section. Remember that the YaaS <a href="#AbouttheStyleandStandards">Style and Standards</a> guidelines apply when you document your endpoints and methods in the RAML file:
