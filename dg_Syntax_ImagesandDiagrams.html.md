@@ -1,6 +1,8 @@
+# Images and diagrams
+
 As someone once said, a picture is worth a thousand words. That is true in YaaS documentation as well. Whenever possible, use a diagram, image, or screenshot to convey a lot of information visually. Follow these guidelines when placing a diagram, screenshot, or other image in your content. For information on using the HTML or MD syntax itself, see the <a href="/tools/documentationsdk/index.html#About">Syntax</a> section of the Documentation SDK.
 
-### Images and screenshots
+## Images and screenshots
 Images and screenshots can quickly convey a lot of important information in your documentation. Do not use directional indicators, such as "above" and "below" to refer to images. Instead, include a brief introduction before each image that describes the purpose of the image and any necessary details. Do not overuse images such as including multiple screenshots of the same screen. Either condense them into one screenshot, or crop the images to show different areas. Follow the rest of these guidelines to make or use images, or capture screenshots:
  <ul>
    <li>Make or capture your images using any tool that outputs high quality images, such as **Snagit**. The desired image format is SVG (vector), but PNG and JPG (raster) are acceptable.</li>
@@ -26,7 +28,7 @@ Images and screenshots can quickly convey a lot of important information in your
      <img style="width:50%" src="img/images_example.png" class="img-click-modal" alt="YaaS Market Persistence package"></li>
  </ul>
 
- ### Diagrams
+ ## Diagrams
  Diagrams are a good way to show information flows or a configuration of a product's architecture. Use the Diagram editor as described in the <a href="/tools/documentationsdk/index.html#Diagrams">Diagrams</a> section of the Documentation SDK.
 
 For information about the UI design guidelines, see the <a href="https://techne.yaas.io/index.html">techné</a> website.
